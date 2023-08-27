@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Admission form</legend>
+    <form action="#">
+        <label for="Name">Name</label><br>
+        <input type="text" id="Name"> <br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email"><br>
+        <label for="password">password <sup>*</sup></label><br>
+        <input type="password" required id="password"><br>
+        <label for="number">number</label><br>
+        <input type="number" id="number"><br>
+        <label for="link">Fb link</label><br>
+        <input type="url" id="link"><br>
+        <label for="col">Colour</label><br>
+        <input type="color" id="col"><br>
+        <label for="date">Date</label><br>
+        <input type="date" id="date"><br><br>
+
+        <select>
+            <option>Afgan</option><br>
+            <option >Nepali</option><br>
+            <option selected>Choose your country</option>
+        </select><br><br>
+
+        <label>Message</label><br>
+        <textarea cols="30" rows="10" placeholder="Write here"></textarea><br><br>
+
+        <label>Fav fruit</label><br>
+        <input type="text" list="apple">
+        <datalist id="apple">
+            <option>apple</option>
+            <option>mango</option>
+        </datalist><br><br>
+
+        <button type="submit">Submit</button>
+        <input type="button" value="Reset">
+    </form>
+    </fieldset>
+</body>
+</html>
