@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: red;
+}
+.name{
+    color: blue !important;
+}
+.name,#game{
+    color: indianred;
+}
+.xyz p{
+    color: cyan;
+}
+
+.xyz>p{
+    color: rgb(33, 157, 44);
+}
+.sibling+p{
+    color: aqua;
+}
+.sibling~p{
+    font-size: larger;
+}
+
+
+
+a:visited{
+    color: rgb(36, 58, 170);
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: purple;
+}
+
+.pseudo::after{
+    content: "world";
+}
+.lorem::first-line{
+    color: rgb(10, 71, 71);
+}
+.lorem::first-letter{
+    font-size: 2rem;
+}
+
+input[type="email"]{
+    color: rgb(220, 154, 154);
+}
+
+
+
+
+
