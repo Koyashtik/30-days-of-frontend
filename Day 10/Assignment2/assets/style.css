@@ -1,0 +1,22 @@
+.linearg{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(red, green, blue);
+    margin: auto;
+    text-align: center;
+    font-size: 10vh;
+    position: sticky ;
+    top: 0;
+}
+.radialg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: radial-gradient(green,blue,yellow);
+    position: relative;
+}
+
+.radialg p{
+    position: absolute;
+    z-index: - 1;
+}

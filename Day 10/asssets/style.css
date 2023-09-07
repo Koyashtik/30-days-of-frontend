@@ -1,0 +1,41 @@
+.text-shadow{
+    text-align: center;
+    height: 100px;;
+    width: 100px;
+    background-color: grey;
+    box-shadow: 7px 7px 5px rgb(91, 7, 7);
+}
+
+.object-fit{
+    height: 100px;
+    }
+
+.object-fit img{
+    height: 100px;
+    object-fit: contain;
+}
+
+.relative{
+    background-color: red;
+    height: 50vh;
+    position: relative;
+}
+.absolute{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    /* right: 0; */
+    bottom: 0;
+    left: 50%;
+    left: calc(50% - 50px);
+}
+
+.fixed img{
+    height: 100px;
+    object-fit: contain;
+}
+.fixed{
+    position: fixed;
+    z-index: -1;
+}
