@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    background-color: #ec4d37;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav .dropdown:hover a:hover{
+    background-color: #ceabc9;
+}
+.dropitems a{
+display: block;
+background-color: blue;
+
+}
+.dropitems{
+    display: none;
+    background-color: red;
+    position: absolute;
+    min-width: 160px;
+}
+.dropdown:hover .dropitems{
+display: block;
+}
+/* .dropdown{
+    position: relative;
+} */
